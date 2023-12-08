@@ -1,0 +1,13 @@
+#sect_registre {
+    margin: 0 auto;
+}
+#div_form {
+    width:500px;
+    margin: 0 auto;
+}
+    #h_crcompte{
+        text-align: center;
+    }
+    #h_identifiants{
+        text-align: center;
+    }

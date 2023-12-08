@@ -1,0 +1,43 @@
+/**PROFIL && MENU-**/
+#dv_mcompte {
+    margin: 30px auto;
+}
+#div_profilmenu {
+
+}
+#div_profil {
+    text-align: center;
+    padding: 0 16px 27px 16px;
+}
+#h_coord {
+    text-align: center;
+}
+#dv_nomprenom {
+    padding: 28px
+}
+#dv_emaildate {
+    padding: 52px;
+}
+
+/**COMMANDE**/
+.tab_commande {
+    width: 100%;
+}
+.tab_commande > tbody > tr >td,.tab_commande > tbody > tr >th,.tab_commande > thead > tr >th {
+    padding: .75rem;
+    vertical-align: top;
+    border-collapse: collapse;
+    border:1px solid rgba(0,0,0,.125);
+}
+.tab_commande  tbody  tr td,.tab_commande  tbody  tr th,.tab_commande  thead  tr th {
+    padding: .75rem;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+.a_annul:hover {
+    cursor: pointer;
+}
+#dv_messagevide {
+    text-align: center;
+    margin: 23px 0;
+}

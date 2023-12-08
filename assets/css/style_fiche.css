@@ -1,0 +1,73 @@
+#sect_fiche {
+    margin: 0 auto;
+}
+/**FICHE PRIX BAG*/
+.h_titre_fiche {
+    margin: 5px 0;
+    color:#505050;
+    font-size: 21px;
+    font-weight: 600;
+}
+.p_info_fiche {
+    font-size:14px;
+}
+.img_fiche {
+    height: 375px;
+}
+#ul_image {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 12px 0;
+}
+    #ul_image li {
+        display: inline-block;
+        vertical-align: top;
+        width: 65px;
+       
+    }
+        #ul_image img {
+            width: 55px;
+            height: 55px;
+
+        }
+.div_price_fiche {
+    text-align: center;
+    font-size: 26px;
+    padding: 18px 0;
+}
+
+#div_quantit{
+    margin: 0px 0 18px 0;
+}
+#form_quantit{
+    text-align: center;
+}
+    #form_quantit select{
+        width: 65px;
+        height: 40px;
+    }
+#div_add {
+    text-align: center;
+}
+#div_dsp_stk {
+    width: 210px;
+    margin: 23px auto;
+    border: 1px solid black;
+}
+#div_dispo,#div_stock {
+    text-align: center;
+}
+#div_dispo {
+    background: #505050;
+    color:#FFF;
+    font-size: 12px;
+}
+#div_stock{
+    margin: 10px 0;
+}
+/**FICHE TECHNIQUE**/
+#div_title_ft {
+    text-align: center;
+}

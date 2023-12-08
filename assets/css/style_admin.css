@@ -1,0 +1,54 @@
+.fm_all {
+    margin: 30px 0;
+} 
+
+.a_color {
+    color:#e07272;
+}
+#ul_admin{
+    margin: 0;
+    padding: 0;
+
+}
+    #ul_admin li{
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;
+    }
+        #ul_admin li > a {
+            color:white;
+        }
+#sct_side {
+    width: 225px;
+    display: inline-block;
+    vertical-align: top;
+    position:sticky;
+    top: 56px;
+    
+}
+#sct_component {
+    width: 1094px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 23px;
+}
+/**formulaire**/
+.in_error{
+    display: none;
+}
+/***COMMANDE***/
+#tab_commande {
+    width: 100%;
+}
+#tab_commande > tbody > tr >td,#tab_commande > tbody > tr >th,#tab_commande > thead > tr >th {
+    padding: .75rem;
+    vertical-align: top;
+    border-collapse: collapse;
+    border:1px solid rgba(0,0,0,.125);
+}
+#tab_commande  tbody  tr td,#tab_commande  tbody  tr th,#tab_commande  thead  tr th {
+    padding: .75rem;
+    vertical-align: top;
+    border-collapse: collapse;
+}

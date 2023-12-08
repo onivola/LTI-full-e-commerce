@@ -1,0 +1,31 @@
+#sect_panier {
+    margin: 0 auto;
+}
+#h_vtrpanier{
+    text-align: center;
+    margin: 10px 0; 
+}
+/**TABLE**/
+.img_ppanier {
+    height: 80px;
+}
+.h_title_tab{
+    font-size: 15px;
+    font-weight: 600;
+    color: #505050;
+}
+.div_stock_tab {
+    font-weight: 600;
+    font-size: 12px;
+}
+.div_enstock_tab {
+    font-size: 12px;
+}
+.slct_qtt {
+    height: 40px;
+    width: 65px;
+    margin: 15px 0;
+}
+.tab_marg {
+    margin: 21px 0;
+}

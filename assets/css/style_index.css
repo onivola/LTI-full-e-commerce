@@ -1,0 +1,23 @@
+#sct_tpnv {
+    margin: 0 auto;
+}
+#div_tpnv {
+    margin: 45px 22px 75px 22px;
+}
+.h_title {
+    text-align: center;
+   font-weight: bold;
+   margin: 30px 0;
+}
+.h_name_vn {
+    padding: 0 0 0 15px;
+    height: 42px;
+    overflow: hidden;
+}
+.div_bag {
+    text-align: center;
+}
+
+.div_price_vn {
+   
+}

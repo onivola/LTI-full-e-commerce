@@ -1,0 +1,91 @@
+/**GENERAL**/
+#sect_connexion, #sect_registre {
+    margin: 0 auto;
+}
+#div_form_login,#div_form {
+    width:500px;
+    margin: 100px auto;
+}
+#h_identifier, #h_client,#h_nclient,#h_crcompte,.h_identifiants{
+    text-align: center;
+}
+#h_identifier, #h_crcompte {
+    margin-bottom: 23px;
+}
+#h_client, .h_identifiants {
+    margin-bottom: 23px;
+}
+#form_client >div, #form_singin .div_listinput >div {
+    margin: 25px 0;
+}
+#form_client  input, .div_listinput input{
+    margin: 0 auto;
+    display: block;
+    width: 300px;   
+}
+.div_button, #div_button_sing {
+    text-align: center;
+}
+#form_client .sm_error,.div_listinput .sm_error{
+    padding: 0 0 0 100px;
+    color: red;
+    display: none;
+ }
+ #sm_erreur_email_exist{ /**email exist error**/
+    display: block;
+ }
+/**CONNEXION**/
+
+   
+  
+        #div_client {
+
+        }
+      
+       
+       /** #form_client  #input:focus{
+            border: 1px solid black;
+        }**/
+       
+        #p_forget_mdp {
+            text-align: center;
+        }
+    #h_nclient {
+        margin: 23px 0 25px 0;
+    }
+
+/**REGISTRE**/
+#form_singin .div_listinput {
+    margin: 25px 0;
+}
+#div_civilit {
+    height: 14px;
+    margin:0;
+    text-align: center;
+}
+    #div_m,#div_mme {
+        width: 80px;
+        height: 40px;
+        display: inline-block;
+        margin:0;
+    }
+    #div_civilit input {
+        width:20px;
+        margin:0;
+    }
+    #div_m div, #div_mme div {
+        margin: -3px 5px 0 0;
+    }
+    #div_m_input, #div_mme_input{
+        height: 14px;
+        margin: 0;
+        width: 21px;
+        display:inline-block;
+        margin:0;
+    }
+    #div_m_title, #div_mme_title {
+        width:20px;
+        display:inline-block;
+        vertical-align: top;
+        margin:0;
+    }

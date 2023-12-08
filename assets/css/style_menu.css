@@ -1,0 +1,204 @@
+/***COMPTE PANIER**/
+#div_logo_search {
+    padding: 10px 0;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+#div_menu_top {
+    background-color:black
+}
+
+#ul_menu_top{
+    margin: 0 55px 0 0;
+}
+#ul_menu_top a {
+    padding: 3px 15px;
+}
+#div_panier,#div_conpte {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px;
+    width: 73px;
+}
+    .a_panier_compte {
+        width: 100%;
+        display: block; 
+        text-align:center;
+    }
+/**DROP DOWN MENU**/
+#div_drop_login {
+    width: 259px;
+    background-color:white;
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+.drop_login_onright {
+    right:10px;
+}
+#div_drop_logout{
+    width: 259px;
+    background-color:
+    white;
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+    #h3_hello {
+        text-align: center;
+        margin: 10px;
+    }
+/**LOGO RECHERCHE LOGIN PANIER**/
+#div_search_up {
+    display:inline-block; 
+    vertical-align: top;
+    margin: 10px 0px 10px 26px;
+}
+#div_umberg {
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+}
+#div_logo {
+    display:inline-block; 
+   
+    
+}
+#div_departement {
+    display: inline-block;
+    vertical-align: top;
+}
+#div_departement select {
+    background: #F0F0F0;
+    border: 0px;
+    height: 40px;
+}
+#form_search_up {
+    display: inline-block;  
+    vertical-align: top;
+  
+}
+    #form_search_up input{
+        width: 700px;
+        margin: 0 -4px 0 -5px;
+    }
+#input_search_up{
+    border: 1px solid gray;
+    height: 40px;
+    padding: 0 0 0 10px;
+}
+/****MON COMPTE PANIER**/
+#div_conpte a:hover, #div_panier a:hover {
+ text-decoration: none;
+}
+/***CATEGORIE RESPONSIVE***/
+.div_ctg_resp {
+    width: 300px;
+    padding: -1px 0px 10px 10px;
+    display: none;
+    position: absolute;
+    z-index:3;
+}
+    .ul_ctg_resp{
+        list-style: none;
+        margin:0;
+        padding:0;
+    
+    
+    }
+        .ul_ctg_resp li {
+            cursor: pointer;
+            
+        }
+            .ul_ctg_resp > li > a {
+                text-decoration: none;
+                color:black;
+            }
+/***CATEGORIE RESPONSIVE***/
+/***CATEGORIE SIMPLE**/
+
+.ul_categorie{
+    list-style: none;
+    margin:0;
+    padding:0;
+    background-color:rgba(126, 221, 107, 0.73);
+    max-width: 1210px;
+    margin: 0 auto;
+    
+}
+.ul_categorie a{
+    text-transform: uppercase;
+}
+    .ul_categorie > li {
+        display: inline-block;
+        vertical-align: top;
+    }
+        .ul_categorie > li > a {
+            text-decoration: none;
+            padding:15px;
+            color:black;
+        }
+            .div_centercat {
+                max-width: 1210px;
+                margin: 0 auto;
+                display: none;
+                
+            }
+            #div_sous_categorie {
+                /** display: none;*/
+                z-index: 3;
+                background-color : white;
+                width: 1210px;
+               
+            }
+                /**DROP DOWN MENU**/
+                .ul_scategorie, .ul_sscategorie {
+                    margin: 0;
+                    padding: 0;
+                    line-height: 35px !important;
+                   
+                }
+                .ul_scategorie a:hover {
+                    text-decoration: none;
+                    
+                }
+                .ul_scategorie h5 {
+                   font-weight: 501;
+                   
+                   
+                }
+                .ul_scategorie > li {
+                    display: inline-block;
+                    vertical-align: top;
+                    list-style: none;
+                    padding: 15px 42px 43px 35px;
+                }
+                    .ul_sscategorie > li {
+                        list-style: none;
+                    }
+/***CATEGORIE SIMPLE**/    
+
+.div_search_down {
+    width: 100%;
+}
+    #form_search_down input {
+        width: 100%;
+    }
+#div_compte_panier {
+    display:inline-block;  
+    width:150px; 
+    float: right;
+    font-size: 11px;    
+    margin-left: -36px;
+}
+#div_sous_categorie {
+    position: absolute;
+}
+#div_footer {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+@media(max-width: 768px) { /**style navigateur<768**/
+   
+  
+}

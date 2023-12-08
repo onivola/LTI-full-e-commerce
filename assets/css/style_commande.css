@@ -1,0 +1,75 @@
+/**********LIVRAISON******************/
+#sct_commande {
+    margin:0 auto;
+}
+.div_titre {
+    text-align: center;
+}
+#tb_infopers {
+    margin: 0 auto;
+}
+#tb_infopers td {
+    padding: 5px;
+}
+    #tb_infopers .td_ipinput {
+        width:415px;
+    }
+.dv_btip {
+    text-align: center;
+    margin: 20px;
+}
+/**********PAIEMENT************/
+
+#tb_paiement {
+    margin:  0 auto;
+    width: 670px;
+
+}
+#ul_typepment {
+    margin: 0;
+    padding: 0;
+    max-width: 610px;
+    margin: 0 auto;
+}   
+    #ul_typepment li {
+        text-decoration: none;
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        padding-top: 40px;
+        text-align: center;
+        height: 104px;
+    }
+    #ul_typepment li:hover {
+        cursor: pointer;
+    }
+    #ul_typepment li input:hover {
+        cursor: pointer;
+    }
+    #ul_typepment li h4 {
+       margin-top: 40px;
+    }
+    .dv_pcheck input {
+        margin: 0;
+        padding-right: 16px;
+    }
+    .dv_pvirmbttvald {
+        width: 70%;
+        margin: 13px auto;
+        padding: 21px 0 24px 0;
+    }
+.p_virmbanc {
+    width: 710px;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    
+    
+}
+.dv_paiement {
+    display:none;
+}
+.div_validcommnd {
+    text-align: center;
+}
+    
+    

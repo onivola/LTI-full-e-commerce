@@ -1,0 +1,94 @@
+#sct_produit {
+    margin:0 auto;
+}
+/**LIST PRODUIT**/
+.h_title_list {
+    font-size: 15px;
+    font-weight: bold;
+}
+.p_info
+{
+    font-size: 12px;
+    color:  #969696;
+    margin-bottom: 8px;
+    line-height: 16px;
+}
+.div_stock {
+    text-align: center;
+    padding: 28px 0;
+    font-size: 14px;
+}
+.div_price {
+    text-align: center;
+    padding: 23px 0;
+    font-size: 20px;
+}
+.div_bag {
+    text-align: center;
+}
+/**LIEN**/
+
+
+/**RECHERCHE MULTICRITAIRE FILTRE***/
+#h_filtre {
+    padding: 18px 0;
+    
+    margin: 0;
+}
+.div_fltr_lst {
+    margin: 11px 0;
+}
+#dv_motcles {
+    
+}
+    #h_motcles {
+        padding: 0 0 9px 0;
+    }
+.dv_fltr_titre{
+}
+    .a_fltr_titre {
+        font-size: 13.2px;
+        display: block;
+        padding: 3px 11px;
+    }
+    .label_fltr {
+        font-size: 14px;    
+    }
+    .a_fltr_titre:hover {
+        text-decoration: none;
+    }
+    .ul_fltr_check {
+        margin: 9px 0 14px 0;
+        padding: 0 0 0 31px;
+    }
+        .ul_fltr_check li {
+           
+        }
+.dv_fltr_valider {
+    text-align: center;
+}
+#dv_filtre {
+    width:19%;
+}
+#dv_produitrie {
+    width: 80%;
+}
+/***********HISTORIQUE FILTRE*******/
+#div_hfiltre {
+    padding: 10px 61px 61px 61px;
+    font-size: 14px;
+}
+.sp_htltr {
+    padding: 0px 5px 0 5px;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+    .sp_htltr i {
+        padding: 0 0 0 14px;
+        cursor: pointer;
+    }
+/**FILTRE NULL**/
+#dv_nullfiltremsg {
+    text-align: center;
+}
